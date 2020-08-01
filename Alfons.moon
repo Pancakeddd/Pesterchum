@@ -3,6 +3,7 @@ DEPENDENCIES = {
   "argon2"                         -- security
   "filekit", "grasp"               -- io
   "htmlparser", "discount"         -- parsing
+  "inspect"                        -- debugging
 }
 
 tasks:
