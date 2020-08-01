@@ -11,7 +11,7 @@ config {"development", "production"}, ->
     db ->
       backend  "grasp"
       location "webchum.db"
-    apps { }
+    apps { "access" }
 
 config "production", ->
   num_workers  4

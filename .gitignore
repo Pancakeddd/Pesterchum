@@ -1,3 +1,4 @@
 logs
 .alfons
 nginx.conf.compiled
+secrets
