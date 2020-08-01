@@ -1,6 +1,6 @@
 -- webchum.controllers.users
 import database      from require "webchum.db.init"
-import first, unbool from require "webchum.util"
+import first, unbool from require "webchum.util.init"
 import sql           from require "grasp.query"
 grasp                   = require "grasp"
 auth                    = require "webchum.util.auth"
