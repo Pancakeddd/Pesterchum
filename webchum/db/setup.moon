@@ -1,7 +1,7 @@
 -- webchum.db.setup
 import config               from require "webchum.config"
 import sql                  from require "grasp.query"
-import database, run, close from require "webchum.db"
+import database, run, close from require "webchum.db.init"
 import errorFor             from require "grasp"
 
 statements = {
