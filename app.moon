@@ -5,7 +5,7 @@ class Index extends lapis.Application
   -- layout
   layout: require "views.layout"
   -- load other apps
-  for app in *config.webssg.apps
+  for app in *config.webchum.apps
     @include "applications.#{app}"
   -- routes
   "/": =>
