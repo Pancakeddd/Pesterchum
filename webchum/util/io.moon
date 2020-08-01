@@ -1,4 +1,4 @@
--- webssg.util.io
+-- webchum.util.io
 
 -- reads the contents of a file
 readfile = (file) ->

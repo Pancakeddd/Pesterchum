@@ -1,4 +1,4 @@
--- webssg.util
+-- webchum.util
 
 first = (t) ->
   expect 1, t, {"table"}

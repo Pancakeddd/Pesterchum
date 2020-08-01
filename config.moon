@@ -7,7 +7,7 @@ config {"development", "production"}, ->
   session_name "webchum_session"
   port          6563
 
-  webssg ->
+  webchum ->
     db ->
       backend  "grasp"
       location "webchum.db"
