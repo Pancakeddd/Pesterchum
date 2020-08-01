@@ -1,6 +1,5 @@
 import config from require "webchum.config"
 lapis            = require "lapis"
-require "false.shit"
 
 class Index extends lapis.Application
   -- layout
