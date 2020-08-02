@@ -1,0 +1,6 @@
+[submodule "LuaIRC"]
+	path = LuaIRC
+	url = https://github.com/JakobOvrum/LuaIRC
+[submodule "luairc"]
+	path = luairc
+	url = https://github.com/JakobOvrum/LuaIRC
