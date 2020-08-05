@@ -28,7 +28,6 @@ class ChatLayout extends html.Widget
             span "oghuzOrbit"
             a href: "#!", class: "secondary-content", i class: "material-icons", "send"
         -- navbar
-        --
         nav class: "teal lighten-2", ->
           div class: "navbar-wrapper", ->
             -- brand
@@ -41,9 +40,21 @@ class ChatLayout extends html.Widget
               -- random encounter
               li -> a href: "#!", -> b "Random"
               -- user list
-              li -> a class: "dropdown-trigger", href: "#!", ["data-target"]: "webchum-users", ->
-                b "Users"
-                i class: "material-icons right", "arrow_drop_down"
+              li -> a class: "modal-trigger", href: "#user-modal", -> b "Users"
+        -- modals
+        -- user modal
+        div id: "user-modal", class: "modal", ->
+          div class: "modal-content", ->
+            h4 "Users"
+            ul id: "user-list", class: "collection", ->
+              for count=1, 75
+                li class: "collection-item", -> div ->
+                  span "angelicEternity"
+                  a href: "#!", class: "secondary-content collection-button tooltipped", ["data-position"]: "top", ["data-tooltip"]: "Send message", -> i class: "material-icons", "send"
+                  a href: "#!", class: "secondary-content collection-button tooltipped", ["data-position"]: "top", ["data-tooltip"]: "Block",        -> i class: "material-icons", "close"
+                  a href: "#!", class: "secondary-content collection-button tooltipped", ["data-position"]: "top", ["data-tooltip"]: "Add friend",   -> i class: "material-icons", "add"
+          div class: "modal-footer", ->
+            a href: "#!", class: "modal-close waves-effect waves-light btn", "Close"
         -- content
         @content_for "inner"
         -- materialize

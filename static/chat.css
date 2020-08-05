@@ -40,6 +40,16 @@
   padding: 4px 4px 0px 4px;
 }
 
+.collection-button {
+  margin-left: 2px;
+  margin-right: 2px;
+}
+
 .close-button:hover {
   background-color: #d32f2f;
+}
+
+#user-list {
+  height: 250px;
+  overflow: scroll;
 }
