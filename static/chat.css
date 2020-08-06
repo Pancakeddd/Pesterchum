@@ -49,7 +49,27 @@
   background-color: #d32f2f;
 }
 
-#user-list {
-  height: 250px;
-  overflow: scroll;
+#user-list, #memo-list, #log-list {
+  height: 15em;
+  overflow-y: scroll;
+}
+
+.modal {
+  overflow: hidden;
+}
+
+/* #search {
+  padding: 10px;
+} */
+
+[type="checkbox"]+span:not(.lever) {
+  padding-left: 25px;
+}
+
+#username {
+  margin-left: 10px;
+  margin-right: 10px;
+  text-decoration: underline;
+  text-decoration-color: #f00;
+  text-decoration-thickness: 5px;
 }

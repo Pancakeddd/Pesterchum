@@ -30,12 +30,12 @@ class Home extends Widget
             li class: "collection-item", ->
               img src: "https://icons.iconarchive.com/icons/designbolts/emoji/128/Emoji-Glad-icon.png", width: 16, height: 16, alt: "Chummy", class: "circle"
               span style: "margin-left: 5px;", class: "title", "userHandle"
-              a href: "#!", class: "secondary-content", -> i class: "material-icons", "send"
+              a href: "#!", class: "secondary-content", -> i class: "material-icons", "more_horiz"
             li class: "collection-item", ->
               img src: "https://icons.iconarchive.com/icons/designbolts/emoji/128/Emoji-Glad-icon.png", width: 16, height: 16, alt: "Chummy", class: "circle"
               span style: "margin-left: 5px;", class: "title", "userHandle"
-              a href: "#!", class: "secondary-content", -> i class: "material-icons", "send"
+              a href: "#!", class: "secondary-content", -> i class: "material-icons", "more_horiz"
             li class: "collection-item", ->
               img src: "https://icons.iconarchive.com/icons/designbolts/emoji/128/Emoji-Glad-icon.png", width: 16, height: 16, alt: "Chummy", class: "circle"
               span style: "margin-left: 5px;", class: "title", "userHandle"
-              a href: "#!", class: "secondary-content", -> i class: "material-icons", "send"
+              a href: "#!", class: "secondary-content", -> i class: "material-icons", "more_horiz"

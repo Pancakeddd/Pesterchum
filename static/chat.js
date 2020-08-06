@@ -1,8 +1,9 @@
 $( document ).ready(function () {
-  $(".dropdown-trigger").dropdown({ hover: true });
+  $(".dropdown-trigger").dropdown({ hover: false });
   $(".tabs").tabs({});
   $('.modal').modal({});
   $('.tooltipped').tooltip({});
+  $('.collapsible').collapsible({});
 
   $(".close-button").click(function () {
     // remove content
