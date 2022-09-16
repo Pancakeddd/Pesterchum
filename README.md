@@ -1,6 +1,6 @@
 # webchum
 
-pesterchum but on da web
+pesterchum for the web.
 
 ## Toolbox (Alfons)
 
